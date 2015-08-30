@@ -1,0 +1,111 @@
+html {
+    background-color: #FF4000;
+
+}
+
+body{
+    padding-top: 18px;
+    padding-left: 50px;
+    
+    
+}
+
+div {
+    background-color: #474747;
+	display: inline-block;
+	margin-left: 4px;
+	margin-top:4px;
+	border:4px solid red;
+    box-shadow: 15px 15px 15px 0 rgba(0, 0, 0, 0.35);
+	border-radius:25%;
+	width:250px;
+	height:190px;
+	text-align:center;
+    float: left;
+	}
+
+    div:active {
+    background-color:#FF4000;
+    }
+
+    div h1{
+        font: 25px Tahoma, Helvetica, Arial, Sans-Serif;
+        text-align: center;
+        color: #222; text-shadow: 0px 2px 3px #555;
+    }
+div p {
+	margin-top: 40px;
+	font-size: 12px;
+}
+   
+#resultado{
+        border: 4px #000fff dotted;
+        border-radius: 15%;
+        width:780px;
+	    height:850px;
+        background-color: #474747;
+        text-align:center;
+        text-shadow: 1px 1px Brown;
+        color: darkblue;
+        font-size: 1.8em;
+    }
+    aside{
+        text-align: center;
+        
+    }
+
+    #dato{
+        width:780px;
+	    display: inline-block;
+	    margin-left: 8px;
+	    margin-top:8px;
+	    border:4px dotted orange;
+	    border-radius:15%;
+	    height:auto;
+	    text-align:center;
+        float: left;
+    }
+
+    div.clear {
+    clear: both;
+}
+
+    .opciones{
+        width:780px;
+        height:220px;
+        border-radius: 10%;
+        background: #474747;
+    }
+
+/* 
+TExto de los div´s 
+ */
+
+code {
+    font: 25px Tahoma, Helvetica, Arial, Sans-Serif;
+    text-align: center;
+    color: #222; 
+    text-shadow: 0px 2px 3px #555;
+    
+}
+
+header  a{
+    display: inline;
+    text-decoration: none;
+    color: white;
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    text-align: center;
+}
+
+img{
+    width: 25px;
+}
+
+header {
+    font: 25px Tahoma, Helvetica, Arial, Sans-Serif;
+    text-align: center;
+    color: #222; 
+    text-shadow: 0px 2px 3px #555;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--
+Pagina creada por Javier Sánchez Sánchez.
+para ponerse en contacto por email: javiersanchez.mlg@gmail.com
+twitter: @froysterland.
+-->
+<html>
+    <head>
+        <!-- icono favicon-->
+    
+        <link rel="shortcut icon" href="http://www.ifronet.es/img/favicon.png">
+        
+        <title>Diario de Trabajo</title>
+        <meta charset="UTF-8">
+        <link href="css/stylesheet.css" rel="stylesheet" type="text/css"/>
+        <script src="js/coche.js" type="text/javascript"></script>
+        <link href="css/fecha.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="js/fecha.js"></script>
+      
+    </head>
+    <body>
+    <header> <!--Cabecera -->
+        <code>
+            <h1>
+                Propiedades
+            </h1>
+            <a href="index.html" >Diario de Trabajo.</a>
+            <p><span id="clock"></span></p>
+        </code>
+    </header>
+    <article>
+        <section>
+            <div>
+                <h1>Cuadro 1º</h1>
+                <h2>Importe:</h2>
+                <h2><input type="text" id="cp1" onchange="cambio(this)"/><img src="img/confirmar.png"/> </h2>
+
+            </div>
+        </section>
+         <section>
+            <div>
+                <h1>Cuadro 2º</h1>
+                <h2>Importe:</h2>
+                <h2><input type="text" id="cp2"/><img src="img/confirmar.png" onclick="cambio(this);"/> </h2>
+
+            </div>
+        </section>
+    </article>
+       
+    </body>
+</html>

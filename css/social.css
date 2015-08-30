@@ -1,0 +1,105 @@
+/*
+Pagina creada por Javier Sánchez Sánchez.
+para ponerse en contacto por email: javiersanchez.mlg@gmail.com
+twitter: @froysterland.
+*/
+/* 
+    Created on : 04-abr-2015, 19:08:16
+    Author     : javier
+*/
+
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300);
+
+/*Ignore me, I'm just page styling*/
+
+
+h1 {font-size:1.5em;margin-bottom:55px;}
+
+/*Pen code from this point on*/
+#social-platforms {
+  position: fixed;
+  top:10px;
+  right: 25px;
+  font-size:1rem;
+  text-align:center;
+  height:175px;
+  overflow:hidden;
+}
+
+#social-platforms a {
+  background:#000;
+  text-align:center;
+  position:relative;
+  display:inline-block;
+  width:30px;
+  height:30px;
+  font-size:1.75em;
+  color:#fff;
+  line-height:1.15em;
+  border:0;
+  cursor:pointer;
+  margin:4px;
+  padding:10px;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.35);
+  border-radius:0 10px 10px 10px;
+  -webkit-transition:all .5s;
+  -moz-transition:all .5s;
+  transition:all .5s;
+}
+
+#social-platforms a span {
+  display:none;
+}
+
+#social-platforms a:after {
+  opacity:0;
+  font-size:.5em;
+  font-weight:300;
+  color:#FFF;
+  background:#000;
+  content:attr(data-title);
+  white-space:nowrap;
+  display:block;
+  position:absolute;
+  left:0;
+  bottom:60px;
+  z-index:-5;
+  cursor:help;
+  padding:3px 8px;
+  -webkit-transition:all .5s;
+  -moz-transition:all .5s;
+  transition:all .5s;
+}
+
+#social-platforms a:before {
+  opacity:0;
+  display:block;
+  position:absolute;
+  bottom:55px;
+  left:50%;
+  margin-left:-5px;
+  z-index:9;
+  cursor:help;
+  content:'';
+  width:0;
+  height:0;
+  border-left:5px solid transparent;
+  border-right:5px solid transparent;
+  border-top:5px solid #000;
+  -webkit-transition:all .5s;
+  -moz-transition:all .5s;
+  transition:all .5s;
+  }
+
+#social-platforms a:hover {
+  background: #ff0000;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.45);
+  }
+  
+#social-platforms a:hover:before, #social-platforms a:hover:after {
+  opacity:1;
+  z-index:50;
+}
+	
+
