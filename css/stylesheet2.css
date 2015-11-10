@@ -7,17 +7,17 @@ body{
      background-color: #FF4000;
 }
 .fondo2{
-     background-color: #555;
+     background-color: #8cc63f;
 }
 .fondo3{
     background-color: #003333;
     }
 .fondo4{
-    background-color: #d08636;
+    background-color: green;
     }
 
 div {
-    background-color: #474747;
+    background-color: green ;
 	display: inline-block;
 	margin-left:4px;
 	margin-top:4px;
@@ -31,7 +31,7 @@ div {
 	}
 
     div:active {
-    background-color:#FF4000;
+    background-color:whitesmoke;
     }
 
     div h1{
@@ -49,7 +49,7 @@ div p {
         border-radius: 15%;
         width:780px;
 	    height:850px;
-        background-color: #474747;
+        background-color: green;
         text-align:center;
         text-shadow: 1px 1px Brown;
         color: darkblue;
@@ -80,7 +80,7 @@ div p {
         width:780px;
         height:220px;
         border-radius: 10%;
-        background: #474747;
+        background: green;
     }
 
 /* 

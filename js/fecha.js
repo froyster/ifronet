@@ -13,6 +13,6 @@ function displayTime() {
     var now = new Date();                        // Get current time
     elt.innerHTML = now.toLocaleTimeString() + " <<>> " + now.toLocaleDateString();    // Make elt display it
     setTimeout(displayTime, 1000);               // Run again in 1 second
-    
+   
     }
     
